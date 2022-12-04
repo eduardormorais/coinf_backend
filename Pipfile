@@ -1,0 +1,44 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+tortoise = "*"
+aerich = "*"
+python-decouple = "*"
+requests = "*"
+certifi = "*"
+fastapi-camelcase = "*"
+asyncpg = "*"
+aioredis = "*"
+loguru = "*"
+fastapi-pagination = {extras = ["tortoise"], version = "*"}
+passlib = "*"
+fastapi-jwt-auth = "*"
+python-multipart = "*"
+mypy = "*"
+aiomysql = "*"
+firebase = "*"
+python-jwt = "*"
+gcloud = "*"
+sseclient = "*"
+pycryptodome = "*"
+requests-toolbelt = "*"
+
+[dev-packages]
+autoflake = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-watch = "==2.0.0"
+black = "*"
+isort = "*"
+requests = "*"
+flake8 = "*"
+faker = "*"
+pytest-asyncio = "*"
+
+[requires]
+python_version = "3.10"
